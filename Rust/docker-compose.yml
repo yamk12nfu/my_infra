@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  test:
+    build: .
+    image: my-rust-image
+    container_name: my-rust-env
+  

@@ -1,0 +1,10 @@
+version: '3'
+services: 
+    python-dev:
+        restart: always
+        build: .
+        container_name: python-env
+        working_dir: '/root/'
+        tty: true
+        volumes:
+            - ./src:/root/src
